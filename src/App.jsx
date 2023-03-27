@@ -6,7 +6,7 @@ import Login from "./Components/Login";
 import ProfileMain from "./Components/ProfileMain";
 import "./App.css";
 
-export const API_URL = "https://linked-in-backend-production.up.railway.app"; // CHANGE THIS DEPENDING ON DEPLOYMENT OR LOCAL TESTING NEEDS
+export const API_URL = "https://linked-in-backend-production.up.railway.app"; // CHANGE THIS DEPENDING ON DEPLOYMENT OR LOCAL TESTING NEEDS 
 
 function App() {
   const { isAuthenticated } = useContext(AuthContext);
