@@ -1,0 +1,126 @@
+.InLearning-div {
+    width: 100%;
+    height: 405px;
+}
+
+.InLearning-heading {
+    text-align: left;
+    font-size: 11px;
+    display: flex;
+    padding: 1rem;
+}
+
+.InLearning-recommendations {
+    text-align: left;
+}
+
+.InLearning-skills {
+    text-align: left;
+    font-size: 15px;
+    max-width: 100%;
+    padding: 0px 1rem;
+}
+
+.learning {
+    margin-left: 0.2rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+.list-img-1 {
+    width: 110px;
+    height: 50px;
+    margin-top: auto;
+    text-align: center;
+    background-image: url("https://thehackernews.com/images/-YBqHpiFatYc/YYkmGzj7ivI/AAAAAAAABWk/ntQ3HgwjZHILIfGBoSi0mSqEM6EDjkLmQCLcBGAsYHQ/s0/pentest.jpg");
+    background-size: 90px;
+}
+
+.list-img-2 {
+    width: 110px;
+    height: 50px;
+    margin-top: auto;
+    text-align: center;
+    background-image: url("https://www.shutterstock.com/shutterstock/videos/1085004004/thumb/11.jpg?ip=x480");
+    background-size: 90px;
+}
+
+.list-img-3 {
+    width: 110px;
+    height: 50px;
+    margin-top: auto;
+    text-align: center;
+    background-image: url("https://cdn.lynda.com/course/604214/604214-636379577084195607-16x9.jpg");
+    background-size: 90px;
+}
+
+.list-item {
+    display: flex;
+    margin: 1rem 1rem;
+    border-top: 1px solid rgb(226, 226, 226);
+    cursor: pointer;
+    height: 63px;
+    max-width: 100%;
+}
+
+.list-title {
+    width: 230px;
+    margin-top: 0.8rem;
+    margin-left: 0.75rem;
+    font-weight: 650;
+    font-size: 13px;
+}
+
+.list-title:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.logo-img {
+    height: 15px;
+    width: 27px;
+}
+
+.my-recommendations {
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+    border-top: 1px solid rgb(226, 226, 226);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    padding: 0.65rem;
+    transition: 0.3s;
+    margin-top: 1.5rem;
+    text-align: center;
+    height: 27px;
+}
+
+.my-recommendations:hover {
+    background: rgb(226, 226, 226);
+}
+
+.play-btn {
+    margin-top: 0.7rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.play-btn:hover {
+    border: 2px solid white;
+}
+
+.top-list-item {
+    display: flex;
+    margin: 1rem;
+    border-top: 1px solid rgb(226, 226, 226);
+    cursor: pointer;
+    height: 63px;
+    max-width: 100%;
+}

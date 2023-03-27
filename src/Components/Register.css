@@ -1,0 +1,94 @@
+#reg-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.register-container h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 20px;
+}
+
+.register-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    line-height: 1.25;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-container label {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.register-container input {
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1.9rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.register-container .password-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-container button {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition-duration: 167ms;
+}
+
+.register-container button[type="submit"] {
+    background-color: #0a66c2;
+    color: #fff;
+    font-weight: bold;
+}
+
+.register-container button[type="button"] {
+    background-color: #ccc;
+    margin-left: 8px;
+    color: #00000099;
+}
+
+.register-container button[type="submit"]:hover {
+    background-color: #0a4b8c;
+}
+
+.register-container button[type="button"]:hover {
+    background-color: #dedddd;
+}
+
+#go-back {
+    position: relative;
+    left: 130px;
+}

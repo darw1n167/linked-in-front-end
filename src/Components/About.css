@@ -1,0 +1,51 @@
+.about-heading {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .about-div {
+    text-align: left;
+    padding: 24px;
+  }
+  
+  .about-content {
+    font-size: 14.25px;
+    margin-top: 0.5rem;
+  }
+  
+  .about-contact {
+    text-align: left;
+    margin-top: 1.2rem;
+    font-size: 14px;
+  }
+  
+  .about-click-state {
+    display: none;
+  }
+  
+  .see-more-btn {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    color: gray;
+    margin-left: auto;
+  }
+  
+  .see-more-btn:hover {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  
+  .see-more-btn:active {
+    outline: none;
+    border: none;
+  }
+  
+  .see-more-div {
+    text-align: left;
+    border-radius: 8px;
+    padding: 24px;
+    height: 200px;
+  }
+

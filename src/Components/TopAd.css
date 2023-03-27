@@ -1,0 +1,103 @@
+.TopAdAll{
+    /* border: solid lightgray 1px; */
+    /* height: 300px; */
+    /* width: 100%; */
+    position: relative;
+}
+
+.AdText{
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.Ad-Topright{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center; /* or space-between or space-around */
+    align-items: center;
+    width: 80px; /* or adjust to your desired width */
+    height: 24px; /* or adjust to your desired height */
+}
+
+.Ad-Topright svg:hover{
+    cursor: pointer;
+}
+
+.images{
+display: flex;
+margin-top: 5px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.fedResAd{
+    /* position: flex; */
+    border: 3px solid transparent;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.pfpAd{
+    width: 70px;
+    border-radius: 50%;
+}
+.headerTop h2{
+    top: 10px;
+    text-align: center;
+    color: rgba(0,0,0,0.55);
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: 400;
+    /* line-height: 16px; */
+    /* max-height: 32px; */
+}
+.headerBottom{
+    margin-top: 10px;
+    color: rgba(0,0,0,0.7);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    max-height: 60px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.companyName{
+    font-weight: 600;
+}
+
+.button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.TopAdAll button{
+    /* margin-left: 0.72rem;
+    margin-top: 0.5rem; */
+    border-radius: 16px;
+    background-color: transparent;
+    border: 1px solid #0A66C2;
+    /* outline: #0A66C2; */
+    width: 80px;
+    height: 30px;
+    color: #0A66C2;
+    font-weight: 550;
+    font-size: 15px;
+    /* transition: 0.3s; */
+    cursor: pointer;
+    /* text-align: center; */
+}
+.TopAdAll button:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(226, 233, 243);
+    box-shadow: inset 0 0 0 1px rgb(10, 102, 194);
+}
+.TopAdAll button:active{
+    outline: none !important;
+}

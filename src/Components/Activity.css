@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: local('Helvetica Neue'),
+		url(https://fonts.cdnfonts.com/s/16654/HelveticaNeue.ttf) format('truetype');
+}
+
+.profile-activity {
+	padding: 24px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+   font-family: var(--artdeco-reset-typography-font-family-sans) !important;
+}
+
+.activity-title {
+	margin-bottom: 0px;
+	font-weight: 600;
+   font-family: var(--artdeco-reset-typography-font-family-sans) !important;
+}
+
+.activity-followers {
+	margin-top: 0px;
+	font-size: 14px;
+	color: #656565;
+}
+
+.activity-text {
+   font-family: var(--artdeco-reset-typography-font-family-sans) !important;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+
+.activity-description {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+.activity-show-all-container {
+	height: 40px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+   font-family: inherit;
+   font-family: var(--artdeco-reset-typography-font-family-sans) !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid #d3d3d3;
+	cursor: pointer;
+}
+
+.activity-show-all-container:hover {
+	background-color: #f5f5f5;
+}
+
+.activity-show-all-text {
+	font-weight: 600;
+	margin-right: 10px;
+	color: rgb(80, 80, 80);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+   font-family: inherit;
+   font-family: var(--artdeco-reset-typography-font-family-sans) !important;
+}
+
+.activity-show-all-icon {
+	font-size: 1.2rem;
+}

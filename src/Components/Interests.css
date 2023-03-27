@@ -1,0 +1,245 @@
+.content-div {
+    display: flex;
+}
+
+.content2-div {
+    display: flex;
+    margin-left: 13rem;
+}
+
+.company-btn {
+    margin-left: 0.72rem;
+    margin-top: 0.5rem;
+    border-radius: 16px;
+    background-color: transparent;
+    border: 2px solid silver;
+    width: 80px;
+    height: 30px;
+    color: rgb(79, 79, 79);
+    font-weight: 550;
+    font-size: 13px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.company-btn:hover {
+    background-color: rgb(223, 223, 223);
+    border: 2px solid gray;
+}
+
+.company-btn2 {
+    margin-left: 0.8rem;
+    margin-top: 0.5rem;
+    border-radius: 16px;
+    background-color: transparent;
+    border: 2px solid silver;
+    width: 80px;
+    height: 30px;
+    color: rgb(79, 79, 79);
+    font-weight: 550;
+    font-size: 13px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.company-btn2:hover {
+    background-color: rgb(223, 223, 223);
+    border: 2px solid gray;
+}
+
+.group-btn {
+    margin-left: 0.71rem;
+    margin-top: 0.5rem;
+    border-radius: 16px;
+    background-color: transparent;
+    border: 2px solid silver;
+    width: 80px;
+    height: 30px;
+    color: rgb(79, 79, 79);
+    font-weight: 550;
+    font-size: 13px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.group-btn:hover {
+    background-color: rgb(223, 223, 223);
+    border: 2px solid gray;
+}
+
+.join-btn {
+    margin-left: 0.7rem;
+    margin-top: 0.5rem;
+    border-radius: 16px;
+    background-color: transparent;
+    border: 2px solid silver;
+    width: 80px;
+    height: 30px;
+    color: rgb(79, 79, 79);
+    font-weight: 550;
+    font-size: 13px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.join-btn:hover {
+    background-color: rgb(223, 223, 223);
+    border: 2px solid gray;
+}
+
+.join-btn2 {
+    margin-left: 0.7rem;
+    margin-top: 0.5rem;
+    border-radius: 16px;
+    background-color: transparent;
+    border: 2px solid silver;
+    width: 80px;
+    height: 30px;
+    color: rgb(79, 79, 79);
+    font-weight: 550;
+    font-size: 13px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.join-btn2:hover {
+    background-color: rgb(223, 223, 223);
+    border: 2px solid gray;
+}
+
+.school-btn {
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+    border-radius: 16px;
+    background-color: transparent;
+    border: 2px solid silver;
+    width: 80px;
+    height: 30px;
+    color: rgb(79, 79, 79);
+    font-weight: 550;
+    font-size: 13px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.school-btn:hover {
+    background-color: rgb(223, 223, 223);
+    border: 2px solid gray;
+}
+
+.school-div {
+    display: flex;
+    margin-left: 15.5rem;
+}
+
+.group-div {
+    display: flex;
+    padding: 1rem;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.group2-div {
+    display: flex;
+}
+
+.group-img {
+    height: 55px;
+    width: 55px;
+}
+
+.Interests-div {
+    background-color: white;
+}
+
+.Interests-title {
+    text-align: left;
+    margin-left: 1.8rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Interests-tabs {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.show-all-div {
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+    border-top: 1px solid rgb(226, 226, 226);
+    padding: 0.65rem;
+    transition: 0.3s;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+}
+
+.show-all-div:hover {
+    background: rgb(226, 226, 226);
+}
+
+.tab-item1 {
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 1rem;
+    padding: 0.75rem;
+    font-size: 14px;
+    color: rgb(106, 106, 106);
+    font-weight: 550;
+    transition: background-color 0.3s;
+}
+
+.tab-item1:active {
+    background-color: rgb(226, 226, 226);
+}
+
+.tab-item {
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 1rem;
+    padding: 0.75rem;
+    font-size: 14px;
+    color: rgb(106, 106, 106);
+    font-weight: 550;
+    transition: background-color 0.3s;
+}
+
+.tab-item:active {
+    background-color: rgb(226, 226, 226);
+}
+
+.title-img {
+    margin-left: 0rem;
+    margin-top: 0.3rem;
+    height: 14px;
+    width: 24px;
+}
+
+.group-followers {
+    text-align: left;
+    margin-left: 0.7rem;
+    color: gray;
+    font-size: 12px;
+}
+
+.user-headline {
+    width: 260px;
+    text-align: left;
+    margin-left: 0.7rem;
+    font-size: 12px;
+}
+
+.user-img {
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+
+.group-title {
+    display: flex;
+    margin-left: 0.7rem;
+    font-weight: 650;
+    font-size: 14px;
+    text-align: left;
+}

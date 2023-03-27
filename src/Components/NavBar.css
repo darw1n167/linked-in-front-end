@@ -1,0 +1,363 @@
+.global-nav {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  z-index: 100;
+  top: 0;
+  border-radius: 0;
+  /* left:0; */
+}
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  /* position: fixed; */
+  /* top: 0; */
+  margin: 0 auto;
+  width: 1128px;
+  outline-style: hidden !important;
+  border-radius: 0px !important;
+  background-color: white;
+  /* padding:0 30px; */
+}
+
+/* .top-nav div {
+    display: flex;
+    align-items: center;
+  } */
+.logo-container {
+  height: 82px;
+  width: 82px;
+}
+.home,
+.home a {
+  color: #666;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  min-width: 80px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.home:hover,
+.home a:hover {
+  color: black;
+}
+
+.jobs,
+.jobs a {
+  color: #666;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  min-width: 80px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.jobs:hover,
+.jobs a:hover {
+  color: black;
+}
+
+.network,
+.network a {
+  color: #666;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.network:hover,
+.network a:hover {
+  color: black;
+}
+
+.messaging,
+.messaging a {
+  color: #666;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  min-width: 80px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.messaging:hover,
+.messaging a:hover {
+  color: black;
+}
+
+.notifications,
+.notifications a {
+  color: #666;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  min-width: 80px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.notifications:hover,
+.notifications a:hover {
+  color: black;
+}
+
+.me {
+  position: relative;
+  cursor: pointer;
+}
+
+.me,
+.me a {
+  color: #666;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  min-width: max-content;
+  text-align: center;
+  min-width: 80px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.me a {
+  min-width: max-content;
+}
+
+.me:hover,
+.me a:hover {
+  color: black;
+}
+
+.work,
+.work a {
+  color: #666;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 80px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.work {
+  border-left: 1px solid lightgrey;
+}
+
+.work a {
+  min-width: max-content;
+}
+
+.work:hover,
+.work a:hover {
+  color: black;
+}
+
+.premium a {
+  color: #915907;
+  text-decoration: underline;
+  text-decoration-color: #915907;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  line-height: 52px;
+  min-width: 80px;
+  position: relative;
+}
+
+.premium a:hover {
+  color: #402804;
+  text-decoration: underline;
+}
+
+.search-box {
+  opacity: 1;
+  flex-grow: 1;
+  position: relative;
+  /* position: relative; */
+  /* max-width: 280px; */
+  /* padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 0.4rem;
+    height: 22px;
+    width: 300px;
+    color: lightgrey;
+    background-color: #eef3f8;
+    font-size: 14px;
+    font-weight: 400; */
+}
+.inner-search-box {
+  position: relative;
+  max-width: 280px;
+  transition: max-width 0.3s ease-out;
+}
+.inner-search-box:focus-within {
+  max-width: 384px;
+}
+.iconandboxdiv {
+  display: block;
+  width: 100%;
+}
+.align-self-center {
+  align-self: center;
+}
+.max-width-280 {
+  max-width: 280px;
+}
+.search-input {
+  box-sizing: border-box;
+  border: none;
+  box-shadow: none;
+  outline-color: rgb(255, 255, 255);
+  outline-style: auto;
+  background-color: rgba(190, 221, 226, 0.341);
+  /* border-radius: 2px; */
+  color: (0, 0, 0, 0.9);
+  /* width: 218px; */
+  width: 100%;
+  padding: 0 8px 0 40px;
+  line-height: 1.75;
+  font-weight: 400;
+  font-size: 14px;
+  height: 34px;
+  border-color: #dce6f1;
+  vertical-align: text-top;
+  /* border: none;
+    background-color: transparent;
+    outline: none;
+    min-width: 95%; */
+}
+
+.search-icon {
+  width: 40px;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 2px;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.15s;
+  color: #666;
+}
+
+/* .search-input:focus {
+  outline: none;
+}
+.search-box:focus-within {
+  outline: 2px solid rgb(10, 102, 194);
+} */
+
+/* .insideSearch {
+  max-width: 280px;
+  position: relative;
+}
+.insideSearch:focus,
+.insideSearch:active {
+  max-width: 384px;
+}
+
+.insideinsideSearch {
+  display: block;
+  width: 100%;
+  z-index: 0;
+} */
+
+.nav-logo {
+  color: rgb(10, 102, 194);
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-links > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link-text {
+  display: flex;
+  align-items: center;
+}
+.nav-logo-div {
+  display: flex;
+  align-items: center;
+  margin: 0 4 0 -4;
+}
+.pfp {
+  border-radius: 50%;
+}
+.modal {
+  position: absolute;
+  box-sizing: border-box;
+  top: calc(100%);
+  left: 0;
+  /* transform: translate(-50%, -50%); */
+  z-index: 1000;
+  display: block;
+  width: 454px;
+  max-height: calc(100vh - 52px);
+  background-color: white;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin-top: 1px;
+  overflow-y: auto;
+}
+.modal-header {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 12px 16px 8px;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 600;
+}
+.modal-unordered-list {
+  /* padding: 2px; */
+  display: flex;
+  /* margin: 0 16px; */
+  flex-wrap: nowrap;
+  overflow-y: auto;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.modal-search-suggestion {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  min-height: 40px;
+  box-sizing: content-box;
+  padding: 0 10px;
+}
+.modal-search-suggestion:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+/* .modal-list-item {
+  display: flex;
+  flex-direction: column;
+} */
+.modal-icon {
+  margin: 8px;
+}
+.modal-search-suggestion-text {
+  padding: 6px 0 6px 12px;
+  font-weight: 500;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

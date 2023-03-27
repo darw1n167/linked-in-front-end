@@ -1,0 +1,48 @@
+.ExpAll{
+    font-family: var(--artdeco-reset-typography-font-family-sans);
+    padding: 24px;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 14px;
+}
+.h2-title{
+    font-size:20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.experience-content{
+    display:flex;
+}
+.experience-company-img{
+    width:max-content;
+    margin-right:8px;
+}
+.job{
+    font-weight: 600;
+}
+
+.dates{
+    color: gray;
+    font-size: 14px;
+}
+
+.location{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.exp-body {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.exp-skills {
+    font-size: 14px;
+}
+
+.exp-bold {
+    font-weight: 600;
+}
